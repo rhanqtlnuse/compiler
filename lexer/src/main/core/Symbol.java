@@ -1,4 +1,4 @@
-package main.util;
+package main.core;
 
 public class Symbol {
 

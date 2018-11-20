@@ -1,9 +1,9 @@
-package main.fa;
+package main.core.fa;
 
 import main.exception.FAException;
 import main.util.InfixToPostfix;
 import main.util.Operator;
-import main.util.Symbol;
+import main.core.Symbol;
 
 import java.util.*;
 

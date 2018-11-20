@@ -1,4 +1,4 @@
-package main.util;
+package main.core;
 
 import main.exception.InvalidFormatException;
 import main.exception.RegexException;

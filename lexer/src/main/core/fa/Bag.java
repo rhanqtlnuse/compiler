@@ -1,4 +1,4 @@
-package main.fa;
+package main.core.fa;
 
 import java.util.HashSet;
 import java.util.Iterator;

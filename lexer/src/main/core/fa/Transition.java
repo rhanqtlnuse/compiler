@@ -1,4 +1,4 @@
-package main.fa;
+package main.core.fa;
 
 class Transition {
 

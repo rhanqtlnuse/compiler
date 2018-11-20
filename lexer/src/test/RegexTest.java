@@ -2,15 +2,10 @@ package test;
 
 import main.exception.InvalidFormatException;
 import main.exception.RegexException;
-import main.util.Regex;
-import main.util.Symbol;
+import main.core.Regex;
+import main.core.Symbol;
 import org.junit.Assert;
 import org.junit.Test;
-
-import java.util.Arrays;
-import java.util.List;
-
-import static org.junit.Assert.*;
 
 public class RegexTest {
 

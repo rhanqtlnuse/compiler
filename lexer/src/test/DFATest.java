@@ -3,13 +3,11 @@ package test;
 import main.exception.FAException;
 import main.exception.InvalidFormatException;
 import main.exception.RegexException;
-import main.fa.DFA;
-import main.fa.NFA;
+import main.core.fa.DFA;
+import main.core.fa.NFA;
 import main.util.InfixToPostfix;
-import main.util.Regex;
+import main.core.Regex;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class DFATest {
 

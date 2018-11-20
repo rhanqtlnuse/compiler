@@ -1,10 +1,10 @@
-package main;
+package main.core;
 
 import main.exception.FAException;
 import main.exception.InvalidFileFormatException;
-import main.fa.DFA;
+import main.core.fa.DFA;
 import main.util.IOHelper;
-import main.util.Regex;
+import main.core.Regex;
 import main.exception.RegexException;
 import main.exception.InvalidFormatException;
 
@@ -52,7 +52,7 @@ public class Lexer {
 
     private List<DFA> optimizedDFAs;
 
-    Lexer(String inputFilePath) throws IOException {
+    public Lexer(String inputFilePath) throws IOException {
         if (!inputFilePath.endsWith(".l")) {
             throw new InvalidFileFormatException("Expected: .l, Actual: " + inputFilePath.substring(inputFilePath.lastIndexOf('.')));
         } else {
@@ -108,8 +108,8 @@ public class Lexer {
         }
     }
 
-    void analyze(InputStream src) throws IOException {
-        File outputFile = new File("tokens.out");
+    public void analyze(InputStream src) throws IOException {
+        File outputFile = new File("sample/tokens.out");
         if (!outputFile.exists()) {
             try {
                 if (!outputFile.createNewFile()) {
@@ -130,7 +130,7 @@ public class Lexer {
         }
     }
 
-    void analyze(InputStream src, OutputStream dest) throws IOException {
+    public void analyze(InputStream src, OutputStream dest) throws IOException {
         IOHelper helper = new IOHelper(src, dest);
 
         char[] block;

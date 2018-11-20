@@ -1,7 +1,7 @@
-package main.fa;
+package main.core.fa;
 
 import main.exception.FAException;
-import main.util.Regex;
+import main.core.Regex;
 
 import java.util.Set;
 
