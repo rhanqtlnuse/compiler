@@ -1,0 +1,11 @@
+1) F -> id
+2) T -> F
+3) F -> id
+4) T -> F
+5) E -> T
+6) F -> id
+7) T -> F
+8) E -> E PLUS T
+9) F -> LPAREN E RPAREN
+10) T -> T MULT F
+11) E -> T

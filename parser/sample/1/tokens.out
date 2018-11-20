@@ -1,0 +1,34 @@
+<NAME, one1>
+<ASSIGN>
+<INTEGER, 8>
+<SEMICOLON>
+<NAME, theOther2>
+<ASSIGN>
+<FLOAT, -12.345>
+<SEMICOLON>
+<WHILE>
+<NAME, one1>
+<NE>
+<NAME, theOther2>
+<DO>
+<IF>
+<NAME, one1>
+<GT>
+<NAME, theOther2>
+<THEN>
+<NAME, one1>
+<ASSIGN>
+<NAME, one1>
+<MINUS>
+<NAME, theOther2>
+<ELSE>
+<NAME, theOther2>
+<ASSIGN>
+<NAME, theOther2>
+<MINUS>
+<NAME, one1>
+<FI>
+<OD>
+<SEMICOLON>
+<PRINT>
+<NAME, one1>

@@ -1,0 +1,7 @@
+# productions
+lexer/out/
+parser/out/
+
+# test files
+lexer/io_helper_test.in
+lexer/io_helper_test.out

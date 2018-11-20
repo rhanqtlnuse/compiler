@@ -1,0 +1,8 @@
+x := 8.5;
+y1 := 12;
+WHILE x != y DO
+    IF x > y THEN x := x-y
+    ELSE y := y-x+1.5e2
+    FI
+OD;
+PRINT x;

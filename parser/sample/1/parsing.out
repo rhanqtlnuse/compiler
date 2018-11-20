@@ -1,0 +1,68 @@
+1) designator -> NAME
+2) expr4 -> INTEGER
+3) expr3 -> expr4
+4) expr2 -> expr3
+5) expression -> expr2
+6) statement -> designator ASSIGN expression
+7) stmtseq -> statement
+8) designator -> NAME
+9) expr4 -> FLOAT
+10) expr3 -> expr4
+11) expr2 -> expr3
+12) expression -> expr2
+13) statement -> designator ASSIGN expression
+14) stmtseq -> stmtseq SEMICOLON statement
+15) designator -> NAME
+16) expr4 -> designator
+17) expr3 -> expr4
+18) expr2 -> expr3
+19) designator -> NAME
+20) expr4 -> designator
+21) expr3 -> expr4
+22) expr2 -> expr3
+23) expression -> expr2 NE expr2
+24) designator -> NAME
+25) expr4 -> designator
+26) expr3 -> expr4
+27) expr2 -> expr3
+28) designator -> NAME
+29) expr4 -> designator
+30) expr3 -> expr4
+31) expr2 -> expr3
+32) expression -> expr2 GT expr2
+33) designator -> NAME
+34) designator -> NAME
+35) expr4 -> designator
+36) expr3 -> expr4
+37) expr2 -> expr3
+38) designator -> NAME
+39) expr4 -> designator
+40) expr3 -> expr4
+41) expr2 -> expr2 MINUS expr3
+42) expression -> expr2
+43) statement -> designator ASSIGN expression
+44) stmtseq -> statement
+45) designator -> NAME
+46) designator -> NAME
+47) expr4 -> designator
+48) expr3 -> expr4
+49) expr2 -> expr3
+50) designator -> NAME
+51) expr4 -> designator
+52) expr3 -> expr4
+53) expr2 -> expr2 MINUS expr3
+54) expression -> expr2
+55) statement -> designator ASSIGN expression
+56) stmtseq -> statement
+57) statement -> IF expression THEN stmtseq ELSE stmtseq FI
+58) stmtseq -> statement
+59) statement -> WHILE expression DO stmtseq OD
+60) stmtseq -> stmtseq SEMICOLON statement
+61) designator -> NAME
+62) expr4 -> designator
+63) expr3 -> expr4
+64) expr2 -> expr3
+65) expression -> expr2
+66) statement -> PRINT expression
+67) stmtseq -> stmtseq SEMICOLON statement
+68) ROOT -> stmtseq

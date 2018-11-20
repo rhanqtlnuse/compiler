@@ -1,0 +1,9 @@
+// Greatest Common Divisor
+one1 := 8;
+theOther2 := -12.345;
+WHILE one1 != theOther2 DO
+    IF one1 > theOther2 THEN one1 := one1 - theOther2
+    ELSE theOther2 := theOther2 - one1
+    FI
+OD;
+PRINT one1
